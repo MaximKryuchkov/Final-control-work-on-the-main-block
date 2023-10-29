@@ -35,3 +35,11 @@ void PrintArray(string[] array)
     }
     System.Console.Write("]");
 }
+
+// ---------------------------------------------------------------------------
+
+string[] array = { "1234", "1567", "-2", "computer science" };
+string[] newArray = new string[array.Length];
+
+NewArray(array, newArray);
+PrintArray(newArray);
