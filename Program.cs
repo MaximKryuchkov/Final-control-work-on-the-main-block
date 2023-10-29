@@ -25,3 +25,13 @@ void NewArray(string[] array1, string[] array2)
         }
     }
 }
+
+void PrintArray(string[] array)
+{
+    System.Console.Write("[");
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"{array[i]}");
+    }
+    System.Console.Write("]");
+}
